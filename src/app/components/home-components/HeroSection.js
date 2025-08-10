@@ -34,7 +34,7 @@ function HeroSection() {
         return ()=>ctx.revert()
     },[])
     return (
-        <div ref={container} className='mx-auto w-screen h-screen flex pt-[20vh] px-6 sm:items-center shadow-2xl overflow-hidden bg-[#6B4226] relative'>
+        <div ref={container} className='w-screen h-screen flex pt-[20vh] px-6 sm:items-center shadow-2xl overflow-hidden bg-[#6B4226] relative'>
             <div ref={bgContainer} className='bg-[#F1E0D6] shadow-2xl sm:h-[150vh] h-[50vh] -z-0 w-screen absolute sm:rounded-br-[65%] rounded-br-[45%]  top-[0]  sm:top-[-50%] sm:left-[-20%]'>
             </div>
             <Image ref={image} src={"/HeroCoffeCup.png"} width={700} height={700} alt='coffe cup' className='z-40 absolute  lg:w-[600px] sm:w-[450px] sm:h-auto w-[500px] h-[500px] object-center object-cover -bottom-12 sm:-right-16' />
