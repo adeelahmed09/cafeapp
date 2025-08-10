@@ -7,7 +7,7 @@ export default function Testimonials() {
     },
     {
       name: "Mark Thompson",
-      text: "Their caramel latte is my absolute favorite. I can’t start my day without it!",
+      text: "Their caramel latte is my absolute favorite. I can't start my day without it!",
       image: "/review2.jpg"
     },
     {
@@ -31,7 +31,7 @@ export default function Testimonials() {
                 alt={review.name}
                 className="w-20 h-20 object-cover rounded-full mx-auto mb-4"
               />
-              <p className="text-gray-700 italic mb-4">"{review.text}"</p>
+              <p className="text-gray-700 italic mb-4">{review.text}</p>
               <h4 className="font-semibold text-[#5c4033]">{review.name}</h4>
             </div>
           ))}

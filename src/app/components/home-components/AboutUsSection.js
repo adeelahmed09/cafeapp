@@ -36,8 +36,6 @@ export default function AboutSection() {
   return (
     <section ref={container} className="py-16 w-screen h-screen flex justify-center items-center flex-col bg-[#f8f5f2]">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
-        
-        {/* Image Section */}
         <div className="md:w-1/2  p-6">
           <Image
             ref={image}
@@ -48,8 +46,6 @@ export default function AboutSection() {
             className="rounded-lg sm:h-[70vh] h-[34vh] object-center object-cover  shadow-lg"
           />
         </div>
-        
-        {/* Text Section */}
         <div ref={container2} className="md:w-1/2 p-6">
           <h2 className="text-3xl font-bold text-[#5c4033] mb-4">
             About Cozy Brew
