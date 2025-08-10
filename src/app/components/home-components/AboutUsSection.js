@@ -17,7 +17,6 @@ export default function AboutSection() {
                 duration:1,
                 scrollTrigger:{
                     trigger:container.current,
-                    markers:true,
                     start:"top center"
                 }
 
